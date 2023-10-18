@@ -3,16 +3,17 @@ import ClassComponent from './Components/ClassComponent'
 import FuncComponent from './Components/FuncComponent'  
 import { OtroEjemplo } from './Components/ClassComponent'
 import Estudiante from './Components/Estudiante'
+import Nombres from './Components/Nombres'
 
 function App() {
   return (
   <>
-  <ClassComponent/>
-  <FuncComponent/>
-  <OtroEjemplo/>
-  <Estudiante nombre='Bernardo' localidad='Olavarría'/>
-  <Estudiante nombre='Jessica' localidad='Indonesia'/>
-  <Estudiante nombre='Emmanuel' localidad='Tailandia'/>
+  <Nombres nombre='Juan'/>
+  <Nombres nombre='Bernardo'/>
+  <Nombres nombre='Yasmín'/>
+  <Nombres nombre='Vito'/>
+  <Nombres nombre='Luna'/>
+  <Nombres nombre='Mora'/>
   </>
   )
 }
